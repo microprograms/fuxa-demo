@@ -85,6 +85,7 @@
     </div>
 
     <div mat-dialog-actions class="dialog-action">
+        <button mat-raised-button (click)="onSelectAllClick()">{{'dlg.browsetag-property-select-all' | translate}}</button>
         <button mat-raised-button (click)="onNoClick()">{{'dlg.cancel' | translate}}</button>
         <button mat-raised-button [disabled]="!isValidate()" color="primary" (click)="onOkClick()" [mat-dialog-close]="data" cdkFocusInitial>{{'dlg.ok' | translate}}</button>
     </div>

@@ -111,6 +111,12 @@ export class TagPropertyComponent implements OnInit, OnDestroy {
         }
     }
 
+    onSelectAllClick(): void {
+        Object.keys(this.treetable.nodes).forEach((key) => {
+            this.treetable.nodes[key].checked = true;
+        });
+    }
+
     onNoClick(): void {
         this.dialogRef.close();
     }

@@ -84,6 +84,8 @@
     "dlg.gauge-permission-show": "Show",
     "dlg.gauge-permission-enabled": "Enabled",
 
+    "dlg.browsetag-property-select-all": "Select All",
+
     "general.close": "Close",
     "general.search": "Search...",
     "general.search-notfound": "No options found",
