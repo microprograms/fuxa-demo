@@ -99,6 +99,7 @@ import { DialogUserInfo } from './home/home.component';
 import { ShapesComponent } from './gauges/shapes/shapes.component';
 import { ProcEngComponent } from './gauges/shapes/proc-eng/proc-eng.component';
 import { ApeShapesComponent } from './gauges/shapes/ape-shapes/ape-shapes.component';
+import { CustomSwitchShapesComponent } from './gauges/shapes/custom-switch-shapes/custom-switch-shapes.component';
 
 import { NgxGaugeComponent } from './gui-helpers/ngx-gauge/ngx-gauge.component';
 import { NgxNouisliderComponent } from './gui-helpers/ngx-nouislider/ngx-nouislider.component';
@@ -158,6 +159,7 @@ export function createTranslateLoader(http: HttpClient) {
         ShapesComponent,
         ProcEngComponent,
         ApeShapesComponent,
+        CustomSwitchShapesComponent,
         TesterComponent,
         TutorialComponent,
         FlexInputComponent,

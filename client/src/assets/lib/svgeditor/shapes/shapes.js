@@ -8,7 +8,7 @@ var svgedit = svgedit || {};
     }
 
     // Add here the your shapes file name 
-    var shapesToLoad = ['my-shapes.js', 'proc-shapes.js', 'ape-shapes.js'];
+    var shapesToLoad = ['custom-shapes.js', 'custom-animate-shapes.js', 'my-shapes.js', 'proc-shapes.js', 'ape-shapes.js'];
 
     svgedit.shapes.load = function (path, callback) {
         var progress = 0;

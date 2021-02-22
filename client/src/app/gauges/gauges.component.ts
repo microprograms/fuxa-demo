@@ -21,6 +21,7 @@ import { GaugeSemaphoreComponent } from './controls/gauge-semaphore/gauge-semaph
 import { ShapesComponent } from './shapes/shapes.component';
 import { ProcEngComponent } from './shapes/proc-eng/proc-eng.component';
 import { ApeShapesComponent } from './shapes/ape-shapes/ape-shapes.component';
+import { CustomSwitchShapesComponent } from './shapes/custom-switch-shapes/custom-switch-shapes.component';
 import { PipeComponent } from './controls/pipe/pipe.component';
 import { SliderComponent } from './controls/slider/slider.component';
 
@@ -57,13 +58,13 @@ export class GaugesManager {
     static GaugeWithInput = [HtmlInputComponent.prefix, HtmlSelectComponent.prefix, HtmlSwitchComponent.prefix];
     // list of gauges tags to check who as events like mouse click
     static GaugeWithEvents = [HtmlButtonComponent.TypeTag, GaugeSemaphoreComponent.TypeTag, ShapesComponent.TypeTag, ProcEngComponent.TypeTag,
-        ApeShapesComponent.TypeTag];
+        ApeShapesComponent.TypeTag, CustomSwitchShapesComponent.TypeTag];
     // list of gauges tags to check who as events like mouse click
-    static GaugeWithActions = [ApeShapesComponent, PipeComponent, ProcEngComponent, ShapesComponent, HtmlButtonComponent];
+    static GaugeWithActions = [ApeShapesComponent, CustomSwitchShapesComponent, PipeComponent, ProcEngComponent, ShapesComponent, HtmlButtonComponent];
     // list of gauges components
     static Gauges = [ValueComponent, HtmlInputComponent, HtmlButtonComponent, HtmlBagComponent,
         HtmlSelectComponent, HtmlChartComponent, GaugeProgressComponent, GaugeSemaphoreComponent, ShapesComponent, ProcEngComponent, ApeShapesComponent,
-        PipeComponent, SliderComponent, HtmlSwitchComponent];
+        CustomSwitchShapesComponent, PipeComponent, SliderComponent, HtmlSwitchComponent];
 
     constructor(private hmiService: HmiService,
         private winRef: WindowRef,
