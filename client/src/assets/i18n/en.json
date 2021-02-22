@@ -319,7 +319,8 @@
     "shapes.action-stop": "Stop",
     "shapes.action-clockwise": "Turn clockwise",
     "shapes.action-anticlockwise": "Turn anticlockwise",
-    "shapes.action-downup": "Up and down",
+    "shapes.action-custom-switch-on": "On",
+    "shapes.action-custom-switch-off": "Off",
 
     "pipe.property-props": "Property",
     "pipe.property-border-width": "Border width",
