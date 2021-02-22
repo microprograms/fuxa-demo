@@ -1,0 +1,76 @@
+.header-panel {
+    /* z-index: 9999 !important; */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(33,33,33,1);
+    /* background-color: rgba(33,33,33,0.92); */
+    color: rgba(255,255,255,1);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;;
+}
+
+.work-panel {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left:0px;
+    right:0px;
+    background-color: white;
+}
+
+.mat-table {
+    overflow: auto;
+    min-width: 1560px;
+}
+  
+.mat-header-cell.mat-sort-header-sorted {
+    color: black;
+}
+
+.mat-header-row {
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+.mat-header-cell {
+    color: white;
+    font-size: 14px;
+}
+
+.mat-column-select {
+    overflow: visible;
+    flex: 0 0 100px;
+}
+
+.mat-column-username {
+    flex: 0 0 400px;
+}
+
+
+.mat-column-groups {
+    flex: 0 0 860px;
+}
+
+.mat-column-remove {
+    flex: 0 0 160px;
+}
+
+.selectidthClass{
+    flex: 0 0 50px;
+ }
