@@ -103,10 +103,4 @@ export class CustomSwitchShapesComponent extends GaugeBaseComponent {
             SVG.adopt(Utils.searchTreeStartWith(element.node, 'off')).show();
         }
     }
-
-    static firstAnimation(element, moveto, movefrom) {
-    }
-    
-    static secondAnimation(element, movefrom, moveto) {
-    }
 }
